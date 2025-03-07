@@ -1,0 +1,74 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Centering the Sign-In Container */
+.signin-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background: #fc8019; /* Swiggy Orange */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    color: white; /* Text color for contrast */
+}
+
+/* Sign-In Heading */
+.signin-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white; /* Ensures visibility */
+}
+
+/* Form Fields */
+.signin-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white; /* White input fields */
+    color: #333;
+}
+
+/* Sign-In Button */
+.signin-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: #fc8019;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+}
+
+.signin-btn:hover {
+    background-color: #e67310;
+    color: white;
+}
+
+/* Sign-Up Link */
+.signin-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
+
+.signin-container a {
+    color: white;
+    text-decoration: underline;
+}
+
+.signin-container a:hover {
+    text-decoration: none;
+}

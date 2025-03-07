@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="swiggy.png" type="image/x-icon">
+    <title>cart</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left">
+            <img src="swiggy.png" alt="Swiggy Icon" class="logo">
+            <a href="index.html">Swiggy</a>
+            <div class="dropdown">
+                <button>Options ▼</button>
+                <div class="dropdown-content">
+                    <a href="#">Guntur</a><br>
+                    <a href="#">Tenali</a><br>
+                    <a href="#">Vijayawada</a>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <i class="fa-solid fa-percent"></i>
+            <a href="offers.html">Offers</a>
+            <i class="fa-solid fa-handshake-angle"></i>
+            <a href="help.html">Help</a>
+            <i class="fa-solid fa-user"></i>
+            <a href="signin.html">Sign In</a>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a href="cart.html">Cart</a>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="search-container">
+                <input type="search" class="search" placeholder="Search..."> 
+            </div>
+        </div>
+    </div>
+    <div class="cart-container">
+        <h2>Your Cart</h2>
+    
+        <!-- Cart Items -->
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="biriyani.jpg" alt="Food Item">
+                <div class="item-details">
+                    <h3>Veg Biryani</h3>
+                    <p>₹199</p>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+            </div>
+    
+            <div class="cart-item">
+                <img src="food2.jpg" alt="Food Item">
+                <div class="item-details">
+                    <h3>Paneer Butter Masala</h3>
+                    <p>₹249</p>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+            </div>
+    
+            <div class="cart-item">
+                <img src="food3.jpg" alt="Food Item">
+                <div class="item-details">
+                    <h3>Cold Coffee</h3>
+                    <p>₹99</p>
+                </div>
+                <div class="quantity">
+                    <button>-</button>
+                    <span>1</span>
+                    <button>+</button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Checkout Section -->
+        <div class="checkout">
+            <h3>Total: ₹547</h3>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Column 1: Company Info -->
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+    
+            <!-- Column 2: Quick Links -->
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="help.html">Help</a></li>
+                    <li><a href="offers.html">Offers</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="signin.html">Signin</a></li>
+                </ul>
+            </div>
+    
+            <!-- Column 3: Social Media -->
+            <div class="footer-column">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <p class="footer-bottom">© Developed by Shanmukha Pavani</p>
+    </footer>
+    
+
+    
+</body>
+</html>
